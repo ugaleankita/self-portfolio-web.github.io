@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOSTRAPE</title>
+    <!-- Boostrape css cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- css cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="NAVBAR1.CSS">
+
+    <!-- aos cdn -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .about1 {
+            font-size: 40px;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        .about2 {
+            font-size: 40px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+        }
+
+        .btn:hover {
+            color: black;
+            background-color: orange;
+        }
+
+        #GALLARY:hover {
+            transform: scale(1.5);
+
+        }
+
+        .card:hover {
+            transform: translatey(-15px);
+            box-shadow: 0 0 20px rgba(5, 5, 5, 0.5);
+
+        }
+
+        .card-header {
+            overflow: hidden;
+        }
+
+        .footer-header a i:hover {
+            background-color: orange;
+            color: white;
+        }
+
+        .d-flex a i:hover {
+            background-color: rgb(15, 15, 15);
+            color: red !important;
+        }
+
+        .socials a i:hover {
+            background-color: rgb(15, 15, 15);
+            color: red !important;
+        }
+        .footer1{
+            height: 250px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- START NAVBAR CONTENT -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <i class="fa fa-user" p-2 text-light icon1 rounded-circle style="font-size:35px;margin-top: 5px;"></i>
+            <a class="navbar-brand" href="#" style="font-size: 45px;">Ankita Ugale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#home page"><u>Home</u></a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#about page"><u>About Me</u></a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#project"><u> Projects</u></a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#gallary"> <u>Gallary</u></a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#contact page"><u>Contact</u></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button> -->
+
+                    <a href="https://www.linkedin.com/feed/"><i
+                            class="fa fa-linkedin  p-2   text-dark mt-3 icon1 rounded-circle"
+                            style="font-size:25px;"></i></a>
+
+                    <a href="https://github.com/"><i class="fa fa-github  p-2   text-dark mt-3 icon1 rounded-circle"
+                            style="font-size:25px;"></i></a>
+                    <a href="https://www.youtube.com/"><i
+                            class="fa fa-youtube  p-2   text-dark mt-3 icon1 rounded-circle"
+                            style="font-size:25px;"></i></a>
+                    <a href="https://www.google.com/"><i class="fa fa-google  p-2   text-dark mt-3 icon1 rounded-circle"
+                            style="font-size:25px;"></i></a>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- END NAVBAR CONTENT -->
+
+    <!-- START HOME PAGE -->
+
+    <section id="home page">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-sm-12 col-md-6">
+                        <li class="text-white "
+                            style="list-style-type: none; font-size: 45PX;margin-left: 9%;margin-top: 100px; ">
+                            <span style="color:black ; list-style-type:none;"><b>Hello, I'm Ankita a<br><span
+                                        style="color:yellow ; list-style-type:none;">Full Stack Developer</span>
+                            </span>
+                            <p style="font-size:17px;margin-top: 2%;" class="text-dark bg">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing
+                                <br>elit, sed do eiusmod
+                                tempor incididunt .
+                            </p>
+
+
+                            <button class="btn btn-danger btn-lg mt-3" style="border-radius:10px ">VISIT MY
+                                PROFILE</button>
+                            <button class="btn btn-outline-danger btn-lg mt-3" style="border-radius:10px ">
+                                Projects</button>
+                        </li>
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <img src="my img.jpeg" class="rounded-circle"
+                            style="height: 350px; margin-left:740px;margin-top: -300px;width: 350px;"
+                            data-aos="zoom-in">
+                    </div>
+                </div>
+                <br><br><br><br><br><br>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    </section>
+    <!-- END HOME PAGE -->
+
+    <!-- START ABOUT PAGE  -->
+    <section id="about page">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 text-center ">
+                    <span class="about1 mt-5"><b><u> About Me </u></b></span><br>
+                    <p style="margin-top: 40px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
+                        tenetur
+                        optio eum perspiciatis, debitis provident odit, veniam corrupti a molestiae magnam et. Repreh
+                        m dolor,optio eum perspiciatis, debitis provident odit, veniam corrupti a molestiae magnam et.
+                        Repreh
+                        m dolor,ciatis, debitis provident odit, veniam corrupti a molestiae magnam et.
+                        Reprehenderit iste quas eaque unde consequuntur officia deleniti!
+
+                    </p>
+                    <p style="margin-top: 40px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
+                        tenetur
+                        optio eum perspiciatis, debitis provident odit, veniam corrupti a molestiae magnam et. Repreh
+                        m dolor,optio eum perspiciatis, debitis provident odit, veniam corrupti a molestiae magnam et.
+                        Repreh
+                        m dolor, sit amet consectetoptio eum perspiciatis, debitis provident odit, veniam corrupti a
+                        molestiae ctetoptio eum perspiciatis, debitis provident odit, veniam corrupti a
+                        molestiae magnam et. Repreh
+                        m doloiste quas eaque unde consequuntur officia deleniti!
+
+                    </p>
+
+                    <button class="btn btn-success btn-lg mt-5">View Full Resume</button>
+                    <br><br>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END ABOUT PAGE  -->
+
+
+    <section id="projects">
+        <div class="container">
+            <div class="text-center">
+                <span class="about1 mt-5 text-center mb-4"><b><u>Projects </u></b></span><br>
+            </div>
+
+            <div class="row mt-5 mb-2">
+                <div class="col-12 col-md-6">
+                    <h1><b>Project Name 01</b></h1>
+                    <p>Lorem ipsum dolor sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione
+                        a sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione atque possimus quae
+                        temporibus perferendis nisi, voluptates ex repellat? Dolor labore minus officia ipsum illum.
+                        Voluptates, alias?</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4" data-aos="zoom-in-left">
+
+                    <img src="Screenshot (4).png" height="300px" width="90%">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1><b>Project Name 02</b></h1>
+                    <p>Lorem ipsum dolor sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione
+                        a sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione atque possimus quae
+                        temporibus perferendis nisi, voluptates ex repellat? Dolor labore minus officia ipsum illum.
+                        Voluptates, alias?</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4" data-aos="zoom-in-right">
+
+                    <img src="Screenshot (11).png" height="300px" width="90%">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1><b>Project Name 03</b></h1>
+                    <p>Lorem ipsum dolor sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione
+                        a sit ametconsectetur, adipisicing elit. A earum repellendus quod ratione atque possimus quae
+                        temporibus perferendis nisi, voluptates ex repellat? Dolor labore minus officia ipsum illum.
+                        Voluptates, alias?</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4" data-aos="zoom-in-left">
+
+                    <img src="Screenshot (7).png" height="300px" width="90%">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- START PROJECT PAGE -->
+    <section id="gallary">
+
+        <div class="wrapper">
+            <div class="container text-center ">
+                <span class="about1 mt-5 text-center mb-4"><b><u>Gallary </u></b></span><br>
+
+                <div class="row mt-4 mb-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mx-30 mt-3" data-aos="fade-up-right">
+
+                            <div class="card-body">
+                                <img src="https://i.postimg.cc/WzjcC7Hb/1.jpg" class="card-img-top" alt="...">
+
+                                <h5 class="card-title">
+                                    Julia Thorn</h5>
+                                <h6>
+                                    Junior Developer</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque
+                                    aliquid similique
+                                    eius alias facilis quisquam, ipsa dolor.</p>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-youtube p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mx-30 mt-3" data-aos="flip-up">
+                            <img src="https://i.postimg.cc/mgKqKwcf/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Martha David</h5>
+                                <h6>
+                                    UI / UX Designer</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque
+                                    aliquid similique
+                                    eius alias facilis quisquam, ipsa dolor.</p>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-youtube p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mx-30 mt-3" data-aos="fade-up-left">
+                            <img src="https://i.postimg.cc/Y9zsGBdM/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Laura Chedd</h5>
+                                <h6>
+                                    Full-Stack Developer</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque
+                                    aliquid similique
+                                    eius alias facilis quisquam, ipsa dolor.</p>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-youtube p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble p-2   text-primary mt-3 icon1 rounded-circle"
+                                            style="font-size:25px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- END PHOTOS PAGE -->
+
+    <!-- START CONTACT PAGE -->
+
+    <section id="contact page">
+        <div class="container-fluid borderd text-center">
+
+
+            <span class="about2 mb-3"><b><u>Contact Us </u></b></span><br>
+           
+
+            <div class="row text-center mt-4 bg-dark text-white footer1">
+
+
+                <div class=" col-md-3 col-xl-4 text-center mb-4">
+                    <div class="footer">
+                        <div class="footer-header  p-0">
+                            <span><b>Phone</b></span><br>
+                            <li style="list-style-type: none;" class="mt-3">726-465-1837</li>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" col-md-3 col-xl-4 mb-4">
+                    <div class="footer">
+                        <div class="footer-header  p-0">
+                            <span><b>Email</b></span><br>
+                            <li style="list-style-type: none;" class="mt-3">ugaleankita582@gmail.com</li>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-4 mb-4">
+                    <div class="footer">
+                        <div class="footer-header  p">
+                            <span><b>Follow Me</b></span><br>
+
+                            <a href="https://www.linkedin.com/feed/"><i
+                                    class="fa fa-linkedin  p-2   text-dark mt-3 icon1 rounded-circle bg-info"
+                                    style="font-size:26px;"></i></a>
+
+                            <a href="https://github.com/"><i
+                                    class="fa fa-github  p-2   text-dark mt-4 icon1 rounded-circle bg-info"
+                                    style="font-size:26px;"></i></a>
+                            <a href="https://www.youtube.com/"><i
+                                    class="fa fa-youtube  p-2   text-dark mt-3 icon1 rounded-circle bg-info"
+                                    style="font-size:26px;"></i></a>
+                            <a href="https://www.google.com/"><i
+                                    class="fa fa-google  p-2   text-dark mt-3 icon1 rounded-circle bg-info"
+                                    style="font-size:26px;"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- END CONTACT PAGE -->
+
+    <!-- START NAVBAR CONTENT -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light h-100px p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-5" href="#" style="font-size: 40px;">Ankita's Info</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 ml-5">
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#home page">Home</a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#about page">About Me</a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#projects"> Projects</a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#gallary"> Gallary</a>
+                    </li>
+                    <li class="nav-item active gx-5">
+                        <a class="nav-link active" href="#contact page">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- END NAVBAR CONTENT -->
+
+
+
+
+
+    <!-- Bo0strape script cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- aos cdn -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                delay: 20,
+            }
+        );
+    </script>
+</body>
+
+</html>

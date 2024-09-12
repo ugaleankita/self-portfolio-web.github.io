@@ -1,0 +1,19 @@
+body{
+    /* background-color: pink; */
+   }
+   .navbar{
+    /* background-color: orange !important; */
+    
+   }
+   .navbar-brand{
+    color:red !important;
+   }
+   .nav-link{
+    color: black;
+    font-size: 1.5rem;
+   }
+   .nav-link:hover{
+    color: white !important;
+    background-color: black;
+    padding: 0.5rem;
+   }
